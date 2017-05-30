@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="024205b34f72b600a381d49f0310c761" sys_domain="global" table="x_inthe_employee_c_coaching_reasons_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_coaching_reason</element>
+            <position>0</position>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
+            <sys_id>10f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reason_desc</element>
+            <position>1</position>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
+            <sys_id>90f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
+            <sys_id>14f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>3</position>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
+            <sys_id>94f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_inthe_employee_c_coaching_reasons_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-05-24 19:22:09</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>024205b34f72b600a381d49f0310c761</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_inthe_employee_c_coaching_reasons_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
+            <sys_update_name>sys_ui_section_024205b34f72b600a381d49f0310c761</sys_update_name>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-05-24 19:22:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

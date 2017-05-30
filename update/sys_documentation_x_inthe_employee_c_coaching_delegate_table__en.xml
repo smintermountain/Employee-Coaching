@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Coaching Delegates" language="en" table="x_inthe_employee_c_coaching_delegate_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Coaching Delegates</label>
+            <language>en</language>
+            <name>x_inthe_employee_c_coaching_delegate_table</name>
+            <plural>Coaching Delegates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-05-24 18:13:57</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>baa23cb74f32b600a381d49f0310c708</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Coaching Delegates</sys_name>
+            <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
+            <sys_update_name>sys_documentation_x_inthe_employee_c_coaching_delegate_table__en</sys_update_name>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-05-25 18:06:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

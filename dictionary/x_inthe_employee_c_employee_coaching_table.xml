@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Employee Coaching Events" max_length="40" name="x_inthe_employee_c_employee_coaching_table" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Coach" max_length="32" name="u_coach" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="1" label="Reason" mandatory="true" max_length="32" name="u_coach_reason" reference="x_inthe_employee_c_coaching_reasons_table" type="reference">
+            <choice/>
+        </element>
+        <element label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element label="Coaching Date" mandatory="true" max_length="40" name="u_event_date" type="glide_date_time"/>
+        <element label="Description" mandatory="true" max_length="4000" name="u_event_desc" type="string"/>
+        <element dependent="u_manager" dependent_on_field="u_manager" label="Manager" max_length="32" name="u_manager" read_only="true" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element label="Other Reason" max_length="80" name="u_other_reason" type="string"/>
+        <index name="index">
+            <element name="u_coach_reason"/>
+        </index>
+        <index name="index2">
+            <element name="u_employee"/>
+        </index>
+        <index name="index3">
+            <element name="u_coach"/>
+        </index>
+        <index name="index4">
+            <element name="u_manager"/>
+        </index>
+    </element>
+</database>
