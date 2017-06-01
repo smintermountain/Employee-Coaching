@@ -5,13 +5,13 @@
             <element>u_coaching_reason</element>
             <position>0</position>
             <sys_created_by>paarwood</sys_created_by>
-            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
-            <sys_id>10f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_created_on>2017-06-01 21:27:46</sys_created_on>
+            <sys_id>33bbe2924f0b7600a381d49f0310c7da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
             <sys_updated_by>paarwood</sys_updated_by>
-            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_updated_on>2017-06-01 21:27:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>u_reason_desc</element>
             <position>1</position>
             <sys_created_by>paarwood</sys_created_by>
-            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
-            <sys_id>90f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_created_on>2017-06-01 21:27:46</sys_created_on>
+            <sys_id>b7bbe2924f0b7600a381d49f0310c7da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
             <sys_updated_by>paarwood</sys_updated_by>
-            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_updated_on>2017-06-01 21:27:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>paarwood</sys_created_by>
-            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
-            <sys_id>14f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_created_on>2017-06-01 21:27:46</sys_created_on>
+            <sys_id>3bbbe2924f0b7600a381d49f0310c7da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
             <sys_updated_by>paarwood</sys_updated_by>
-            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_updated_on>2017-06-01 21:27:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -47,13 +47,27 @@
             <element>active</element>
             <position>3</position>
             <sys_created_by>paarwood</sys_created_by>
-            <sys_created_on>2017-05-25 20:23:39</sys_created_on>
-            <sys_id>94f9de8c4f8f3200a381d49f0310c70f</sys_id>
+            <sys_created_on>2017-06-01 21:27:46</sys_created_on>
+            <sys_id>bbbbe2924f0b7600a381d49f0310c7da</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
             <sys_updated_by>paarwood</sys_updated_by>
-            <sys_updated_on>2017-05-25 20:23:39</sys_updated_on>
+            <sys_updated_on>2017-06-01 21:27:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_manager</element>
+            <position>4</position>
+            <sys_created_by>paarwood</sys_created_by>
+            <sys_created_on>2017-06-01 21:27:46</sys_created_on>
+            <sys_id>3fbbe2924f0b7600a381d49f0310c7da</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_inthe_employee_c_coaching_reasons_table" sys_domain="global" view="Default view">024205b34f72b600a381d49f0310c761</sys_ui_section>
+            <sys_updated_by>paarwood</sys_updated_by>
+            <sys_updated_on>2017-06-01 21:27:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

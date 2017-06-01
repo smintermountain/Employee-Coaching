@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>active</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>paarwood</sys_created_by>
+        <sys_created_on>2017-06-01 21:26:29</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>436bee524f0b7600a381d49f0310c72e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>active</sys_name>
+        <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_436bee524f0b7600a381d49f0310c72e</sys_update_name>
+        <sys_updated_by>paarwood</sys_updated_by>
+        <sys_updated_on>2017-06-01 21:26:29</sys_updated_on>
+        <table>x_inthe_employee_c_coaching_reasons_table</table>
+        <ui_policy display_value="General Rules">8cfc5a5a4fc77600a381d49f0310c798</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -6,10 +6,11 @@
         <element choice="1" label="Reason" mandatory="true" max_length="32" name="u_coach_reason" reference="x_inthe_employee_c_coaching_reasons_table" type="reference">
             <choice/>
         </element>
-        <element label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" type="reference"/>
+        <element choice="1" label="Employee" mandatory="true" max_length="32" name="u_employee" reference="sys_user" reference_qual="javascript: new coachManagement(gs.getUserID()).usrFilter()" type="reference" use_reference_qualifier="advanced">
+            <choice/>
+        </element>
         <element label="Coaching Date" mandatory="true" max_length="40" name="u_event_date" type="glide_date_time"/>
         <element label="Description" mandatory="true" max_length="4000" name="u_event_desc" type="string"/>
-        <element dependent="u_manager" dependent_on_field="u_manager" label="Manager" max_length="32" name="u_manager" read_only="true" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element label="Other Reason" max_length="80" name="u_other_reason" type="string"/>
         <index name="index">
             <element name="u_coach_reason"/>
@@ -19,9 +20,6 @@
         </index>
         <index name="index3">
             <element name="u_coach"/>
-        </index>
-        <index name="index4">
-            <element name="u_manager"/>
         </index>
     </element>
 </database>

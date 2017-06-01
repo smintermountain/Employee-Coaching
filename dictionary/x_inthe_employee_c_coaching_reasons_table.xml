@@ -3,7 +3,7 @@
     <element label="Coaching Reasons" max_length="40" name="x_inthe_employee_c_coaching_reasons_table" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element display="true" label="Reason" max_length="40" name="u_coaching_reason" type="string"/>
-        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Manager" max_length="32" name="u_manager" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Manager" max_length="32" name="u_manager" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Description" max_length="2000" name="u_reason_desc" type="string"/>
         <index name="index">
             <element name="u_manager"/>
