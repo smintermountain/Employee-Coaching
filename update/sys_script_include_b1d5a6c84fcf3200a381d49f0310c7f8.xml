@@ -21,10 +21,22 @@ coachManagement.prototype = {
 		grCoach.addAggregate('COUNT');
 		grCoach.query();
 		grCoach.next();
-			
+
 		return grCoach.getAggregate('COUNT') > 0;
-		
+
 	},
+	getValidReasons: function() {
+		var managerList = this._getManagerFromCoach();
+		var grReasons = new GlideAggregate('x_inthe_employee_c_coaching_reasons_table');
+		grReasons.addQuery('u_manager', managerList);
+		grReasons.addQuery('active', true);
+		grReasons.addAggregate('COUNT');
+		grReasons.query();
+		grReasons.next();
+
+		return grReasons.getAggregate('COUNT') > 0;
+
+	},	
 	usrFilter: function(){
 		var userList ='';
 		var grUser = new GlideRecord('x_inthe_employee_c_coaching_delegate_table');
@@ -40,6 +52,43 @@ coachManagement.prototype = {
 		}
 		return 'manager='+this.userID+'^ORsys_idIN' + userList;
 	},
+	
+	getReasons: function(){
+		var managerList = this._getManagerFromCoach();
+		var reasonList = '';
+		var grReason = new GlideRecord('x_inthe_employee_c_coaching_reasons_table');
+		grReason.addQuery('u_manager', "IN", managerList.join(","));
+		grReason.query();
+		while (grReason.next()) {
+			if (reasonList.length > 0) {
+				reasonList += (',' + grReason.sys_id);
+			}
+			else {
+				reasonList = '' + grReason.sys_id;
+			}
+		}
+		gs.info('***** Reason List From Function ' + reasonList);
+		return 'u_manager='+this.userID+'^ORsys_idIN' + reasonList;
+	},
+
+	_getManagerFromCoach: function(){
+		var manager = [];
+		var coach = this.userID;
+
+		var grManagerList = new GlideRecord('x_inthe_employee_c_coaching_delegate_table');
+		grManagerList.addQuery('active', true);
+		grManagerList.addQuery('u_coach', coach);
+		grManagerList.query();
+
+		while(grManagerList.next()){
+
+			manager.push(grManagerList.u_employee.manager + "");
+		}
+		gs.info('***** Manager List From Private Function ' + manager);
+		return manager;
+	},
+	
+
 	type: 'coachManagement'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
@@ -47,7 +96,7 @@ coachManagement.prototype = {
         <sys_created_on>2017-05-25 21:36:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b1d5a6c84fcf3200a381d49f0310c7f8</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>coachManagement</sys_name>
         <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
         <sys_policy>read</sys_policy>
@@ -55,6 +104,6 @@ coachManagement.prototype = {
         <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
         <sys_update_name>sys_script_include_b1d5a6c84fcf3200a381d49f0310c7f8</sys_update_name>
         <sys_updated_by>paarwood</sys_updated_by>
-        <sys_updated_on>2017-05-31 18:53:31</sys_updated_on>
+        <sys_updated_on>2017-06-20 19:23:14</sys_updated_on>
     </sys_script_include>
 </record_update>

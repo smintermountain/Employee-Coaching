@@ -2,26 +2,20 @@
 <record_update table="ua_table_licensing_config">
     <ua_table_licensing_config action="INSERT_OR_UPDATE">
         <is_fulfillment>false</is_fulfillment>
-        <license_condition/>
-        <license_model>none</license_model>
-        <license_roles/>
         <name>x_inthe_employee_c_employee_coaching_table</name>
-        <op_delete>true</op_delete>
-        <op_insert>true</op_insert>
-        <op_update>true</op_update>
         <owner_condition/>
         <sys_class_name>ua_table_licensing_config</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-05-24 17:30:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
-        <sys_id>b6a8ecbf4ffe7600a381d49f0310c7d5</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>907bdf7b4fc3ba00af76d0af0310c726</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_inthe_employee_c_employee_coaching_table</sys_name>
         <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
-        <sys_update_name>ua_table_licensing_config_b6a8ecbf4ffe7600a381d49f0310c7d5</sys_update_name>
+        <sys_update_name>ua_table_licensing_config_907bdf7b4fc3ba00af76d0af0310c726</sys_update_name>
         <sys_updated_by>paarwood</sys_updated_by>
         <sys_updated_on>2017-05-24 17:30:15</sys_updated_on>
     </ua_table_licensing_config>

@@ -65,7 +65,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>paarwood</sys_created_by>
             <sys_created_on>2017-05-24 19:22:26</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>425241734f72b600a381d49f0310c713</sys_id>

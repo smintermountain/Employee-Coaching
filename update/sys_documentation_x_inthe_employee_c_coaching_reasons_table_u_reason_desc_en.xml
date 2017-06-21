@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>paarwood</sys_created_by>
             <sys_created_on>2017-05-24 18:45:24</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>abd934fb4f32b600a381d49f0310c77f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Description</sys_name>

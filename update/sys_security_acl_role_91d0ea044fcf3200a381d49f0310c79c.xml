@@ -4,7 +4,7 @@
         <sys_class_name>sys_security_acl_role</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-05-25 20:55:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>91d0ea044fcf3200a381d49f0310c79c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_inthe_employee_c_employee_coaching_table.security_admin</sys_name>

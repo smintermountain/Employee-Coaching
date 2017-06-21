@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-05-30 19:52:54</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>fed2c4714f03760051e5d0af0310c7ad</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>SysRelatedList</sys_name>
