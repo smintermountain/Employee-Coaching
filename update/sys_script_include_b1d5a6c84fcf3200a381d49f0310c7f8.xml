@@ -20,9 +20,14 @@ coachManagement.prototype = {
 		grCoach.addQuery('active', true);
 		grCoach.addAggregate('COUNT');
 		grCoach.query();
-		grCoach.next();
+		
+		var users = 0;
+		
+		if (grCoach.next()){
+			users = grCoach.getAggregate('COUNT');
+		}
 
-		return grCoach.getAggregate('COUNT') > 0;
+		return users > 0;
 
 	},
 	getValidReasons: function() {
@@ -32,9 +37,13 @@ coachManagement.prototype = {
 		grReasons.addQuery('active', true);
 		grReasons.addAggregate('COUNT');
 		grReasons.query();
-		grReasons.next();
-
-		return grReasons.getAggregate('COUNT') > 0;
+		
+		var reason_ct = 0;
+		
+		if(grReasons.next()){
+			reason_ct = grReasons.getAggregate('COUNT');
+		}
+		return  reason_ct > 0;
 
 	},	
 	usrFilter: function(){
@@ -96,7 +105,7 @@ coachManagement.prototype = {
         <sys_created_on>2017-05-25 21:36:39</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>b1d5a6c84fcf3200a381d49f0310c7f8</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>55</sys_mod_count>
         <sys_name>coachManagement</sys_name>
         <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
         <sys_policy>read</sys_policy>
@@ -104,6 +113,6 @@ coachManagement.prototype = {
         <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
         <sys_update_name>sys_script_include_b1d5a6c84fcf3200a381d49f0310c7f8</sys_update_name>
         <sys_updated_by>paarwood</sys_updated_by>
-        <sys_updated_on>2017-06-20 19:23:14</sys_updated_on>
+        <sys_updated_on>2017-07-05 17:20:50</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -52,7 +52,7 @@
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-05-24 19:02:48</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>547bdf7b4fc3ba00af76d0af0310c705</sys_id>
+        <sys_id>5f7374994f77b200f5f3d49f0310c74e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Description</sys_name>
         <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
         <sys_update_name>sys_dictionary_x_inthe_employee_c_employee_coaching_table_u_event_desc</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-06-06 16:47:15</sys_updated_on>
+        <sys_updated_on>2017-07-05 16:55:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
