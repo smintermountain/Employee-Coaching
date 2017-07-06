@@ -19,17 +19,17 @@
         <override_menu_roles>true</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_inthe_employee_c.manager,security_admin</roles>
+        <roles>security_admin,x_inthe_employee_c.manager</roles>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-05-25 19:37:34</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e32a4ec04f8f3200a381d49f0310c797</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Manage Coaching Relationships</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Coaching" source="x_inthe_employee_c">cea8687f4ffe7600a381d49f0310c78d</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
         <sys_update_name>sys_app_module_e32a4ec04f8f3200a381d49f0310c797</sys_update_name>
         <sys_updated_by>paarwood</sys_updated_by>
-        <sys_updated_on>2017-05-25 20:36:52</sys_updated_on>
+        <sys_updated_on>2017-07-06 20:17:40</sys_updated_on>
         <timeline_page/>
         <title>Manage Coaching Relationships</title>
         <uncancelable>false</uncancelable>
