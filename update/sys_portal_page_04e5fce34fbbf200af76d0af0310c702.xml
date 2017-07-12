@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-07-12 17:13:18">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order>1000</order>
+        <read_roles>x_inthe_employee_c.admin,x_inthe_employee_c.manager</read_roles>
+        <roles>x_inthe_employee_c.admin</roles>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>paarwood</sys_created_by>
+        <sys_created_on>2017-07-12 16:52:40</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04e5fce34fbbf200af76d0af0310c702</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Employee Coaching Dashboard</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Coaching">cea8687f4ffe7600a381d49f0310c78d</sys_scope>
+        <sys_update_name>sys_portal_page_04e5fce34fbbf200af76d0af0310c702</sys_update_name>
+        <sys_updated_by>paarwood</sys_updated_by>
+        <sys_updated_on>2017-07-12 17:12:15</sys_updated_on>
+        <title>Employee Coaching Dashboard</title>
+        <user/>
+        <view>default</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Employee Coaching Dashboard">04e5fce34fbbf200af76d0af0310c702</page>
+                <summary/>
+                <sys_created_by>paarwood</sys_created_by>
+                <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                <sys_id>d28874674fbbf200af76d0af0310c70e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>paarwood</sys_updated_by>
+                <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>128874674fbbf200af76d0af0310c70f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>trend</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>168874674fbbf200af76d0af0310c70e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>3568fc274fbbf200af76d0af0310c766</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>5e8874674fbbf200af76d0af0310c70e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>968874674fbbf200af76d0af0310c70f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>04e5fce34fbbf200af76d0af0310c702</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>9a8874674fbbf200af76d0af0310c70e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>d28874674fbbf200af76d0af0310c70f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>Coaching Trend Report</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">d28874674fbbf200af76d0af0310c70e</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>d68874674fbbf200af76d0af0310c70e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Employee Coaching Dashboard">04e5fce34fbbf200af76d0af0310c702</page>
+                <summary/>
+                <sys_created_by>paarwood</sys_created_by>
+                <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                <sys_id>da8874674fbbf200af76d0af0310c70c</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>paarwood</sys_updated_by>
+                <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>1a8874674fbbf200af76d0af0310c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>1e8874674fbbf200af76d0af0310c70c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>0f277ce34fbbf200af76d0af0310c7f6</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>568874674fbbf200af76d0af0310c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>928874674fbbf200af76d0af0310c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>9e8874674fbbf200af76d0af0310c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>04e5fce34fbbf200af76d0af0310c702</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>da8874674fbbf200af76d0af0310c70d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>Coaching Events by Employee</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 07-12-2017 11:03:53">da8874674fbbf200af76d0af0310c70c</portal_section>
+                        <sys_created_by>paarwood</sys_created_by>
+                        <sys_created_on>2017-07-12 17:03:53</sys_created_on>
+                        <sys_id>de8874674fbbf200af76d0af0310c70c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>paarwood</sys_updated_by>
+                        <sys_updated_on>2017-07-12 17:03:53</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
