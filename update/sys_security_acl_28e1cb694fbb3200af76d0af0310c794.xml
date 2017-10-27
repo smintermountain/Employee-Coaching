@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-07-06 21:56:07</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>28e1cb694fbb3200af76d0af0310c794</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_inthe_employee_c_employee_coaching_table.*</sys_name>

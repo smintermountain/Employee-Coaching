@@ -13,7 +13,7 @@
         <sys_class_name>sys_user_role</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-07-06 20:22:37</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9f6cea6d4f3b3200af76d0af0310c707</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>x_inthe_employee_c.admin</sys_name>

@@ -90,7 +90,7 @@ coachManagement.prototype = {
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>paarwood</sys_created_by>
         <sys_created_on>2017-05-25 21:36:39</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>b1d5a6c84fcf3200a381d49f0310c7f8</sys_id>
         <sys_mod_count>106</sys_mod_count>
         <sys_name>coachManagement</sys_name>
